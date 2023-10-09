@@ -1,0 +1,131 @@
+header {
+    height: 80px;
+    background-color: #ffffff;
+    border-bottom: solid 0.5px #9fa0a9;
+    font-size: 30px;
+    text-align: center;
+    padding: 18px;
+    color: #29b981;
+}
+
+body {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+#Specifications1 {
+    color: #9fa0a9;
+    position: relative;
+    left: 35%;
+    margin-top: 50px;
+}
+
+#foto {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: -180px;
+    bottom: -15px;
+}
+
+#name {
+    color: #000;
+}
+
+#Specifications2p {
+    color: #000;
+    float: left;
+}
+
+#NumberSessions {
+    height: 30px;
+    width: 190px;
+    padding-top: 5px;
+    background-color: #fef1df;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#Verified{
+    color: #29b981;
+}
+
+#WhenApply {
+    background-color: #f6f6f5;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    top: 80px;
+}
+
+#WhenApplytext {
+    margin-left: 350px;
+    padding-top: 3px;
+    padding-bottom: 25px;
+}
+
+#WhenApplytext li {
+    padding: 10px;
+}
+
+.lileft {
+    float: left;
+}
+
+#age {
+    margin-top: 20px; 
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+#price {
+    height: 260px;
+    width: 280px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 1px 1px 20px #d8d8d8;
+    position: fixed;
+    left: 1000px;
+    bottom: 320px;
+    padding: 12px;
+}
+
+#price h5 {
+    color: #9fa0a9;
+}
+
+.PriceButton {
+    height: 50px;
+    width: 240px;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 13px;
+    position: relative;
+    right: 10px;
+    top: 15px;
+    font-size: 16px;
+}
+
+#ViewTime {
+    background-color: #29b981;
+    color: #fff
+}
+
+#PsychologistQuestion {
+    border: solid 1px #000;
+    background-color: #ffffff;
+}
+
+#futor {
+    height: 150px;
+    margin-bottom: 0;
+    margin-top: 100%;
+    background-color: #29b981;
+    border-top: solid 4px #9fa0a9;
+    border-radius: 8px 8px 0px 0px;
+}

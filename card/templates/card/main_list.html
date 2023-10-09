@@ -1,0 +1,33 @@
+{% extends "card/base.html" %}
+
+{% block content %}
+<div id='Specifications1'>
+    <img id='foto' src="https://back.alter.ru/media/avatars/7909800b2dafb7ef987cbbcec359c13ce3b21b69.jpeg" alt='фото'\>
+    <h1 id='name'>Александр Лисичный</h1>
+    <p>Клинический психолог Семейный психолог <br> Психолог</p>
+    <div id='Specifications2'>
+        <p id='Specifications2p'>7 лет опыта &nbsp;&nbsp;&nbsp; 56 лет &nbsp;&nbsp;&nbsp;</p>
+        <p id='Verified'>Проверено Alter</p>
+    </div>
+    <div id='NumberSessions'>
+        <p>Болee 200 сессий в Alter</p>
+    </div>
+</div>
+
+<div id='WhenApply'>
+    <div id='WhenApplytext'>
+        <h3>Когда обращаются</h3>
+        <p><li class='lileft'>Травматические события в прошлом</li> <li>Семейные и партнерские отношения</li></p>
+        <p><li class='lileft'>Самоопределение, смысл жизни, другие <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;экзистенциальные вопросы</li> <li>Конфликты, ссоры, трудности в общении</li></p>
+        <h3>Аудитория</h3>
+        <div id='age'>Взрослые</div>
+    </div>
+</div>
+
+<div id='price'>
+    <h3>4000 ₽</h3>
+    <h5>Принимает онлайн</h5>
+    <div id='ViewTime' class="PriceButton"><a href = "{% url 'record' %}">Посмотреть время</a></div>
+    <div id='PsychologistQuestion' class="PriceButton">Задать вопрос психологу</div>
+</div>
+{% endblock %}
